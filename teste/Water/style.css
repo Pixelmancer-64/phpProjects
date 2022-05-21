@@ -1,0 +1,75 @@
+body{
+    margin: 5%;
+    background-color: rgb(14, 20, 27);
+    color: white;
+    border: 1.5em ridge rgb(24, 38, 53);
+    font-family: 'Courier New', Courier, monospace;
+}
+main{
+    display: flex;
+    flex-direction: column;
+	margin: 2em;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    font-size: 1.5rem;
+    color: white;
+
+}
+h1, h3{
+    text-align: center;
+}
+
+label:after { content: ": " }
+
+section{
+    margin: 2em;
+    overflow-x: auto;
+}
+input[type="checkbox"]{
+    margin-bottom: 1%;
+}
+
+input[type="text"], input[type="number"]{
+    padding: .1em;
+    font-size: 2rem;
+    margin-top: .3em;
+    margin-bottom: .3em;
+    color: white;
+    background-color: rgb(21, 31, 40);
+    width: 100%;
+    outline: none;
+    border: 0;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.table{
+  overflow-x: auto;
+}
+td,
+th {
+    border: 1px solid rgb(85, 85, 85);
+} 
+
+#delete{
+    color: red;
+    font-weight: bold;
+}
+
+button img{
+    width: 1rem;
+    height: 1rem;
+}
